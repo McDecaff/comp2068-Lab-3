@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+</head>
+<body>
+<form action="lab3" id="calcForm">
+    <legend>Calculator</legend>
+    <fieldset>
+        <label for="x" class="col-sm-2">X:</label>
+        <input type="number" name="x" id="x" placeholder="x" required/>
+    </fieldset>
+    <fieldset>
+        <label for="method" class="col-sm-2">Operator:</label>
+        <select name='method' value='+'>Operator: </option>
+            <option value= 'add'>+</option>
+            <option value= 'subtract'>-</option>
+            <option value= 'divide'>/</option>
+            <option value= 'multiply'>X</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label for="y" class="col-sm-2">Y:</label>
+        <input type="number" name="y" id="y" placeholder="y" required/>
+    </fieldset>
+    <button class="btn btn-primary col-sm-offset-2" onclick="calculate()">Calculate</button>
+</form>
+</body>
+<html>

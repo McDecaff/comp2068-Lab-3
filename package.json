@@ -1,0 +1,22 @@
+{
+  "name": "lab3-node-calculator",
+  "version": "1.0.0",
+  "description": "A simple javascript calculator with node",
+  "main": "nodemon calcServer.js",
+  "dependencies": {
+    "connect": "^3.5.0",
+    "serve-static": "^1.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "calculator",
+    "node",
+    "npm"
+  ],
+  "author": "McDecaff",
+  "license": "ISC"
+}
